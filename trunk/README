@@ -1,0 +1,35 @@
+Copyright (C) 2009  Brett Boston
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+######################
+#EZ vlc streamer 0.10#
+######################
+
+In later versions of VLC, the functionality to stream multiple files has been removed. This script allows you to use that functionality again.
+
+Currently, EZ vlc streamer only allows streaming over HTTP. However, we are currently working to get other protocols up and running.
+
+HOW TO USE
+1. Open a terminal window
+2. type "sh /path/to/streamer/EZvlcstreamer.sh" without the quotes
+3. drag the files you would like to stream into the terminal window and press enter.
+4. Add the addresses you would like to stream to and press enter.  If you want to stream to any device, leave this blank or enter 0.0.0.0
+5. Now, add the port you would like your stream to use and hit enter.  In most cases, this would be 8080, but it can be any number you want!
+6. The next question will start the stream as soon as you press enter
+7. In the computer that you are streaming to, tell VLC to open a stream using HTTP on your.ip.address.here:port
+8. In many cases, you might want to reorder the files to be streamed in the queue, but that's all up to you!
+9. Enjoy your media!
+
+Thank you for using EZ Vlc Streamer!

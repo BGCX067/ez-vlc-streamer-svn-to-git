@@ -1,0 +1,17 @@
+Version 0.14
+Fixed numerous errors with 0.13
+Tried to forget that 0.13 ever existed
+
+Version 0.13
+Added sout-keep in order to keep a continous stream open when switching files.
+
+Version 0.12
+Allowed video through transcoding.  EZ vlc streamer now transcodes video to theora and audio to vorbis.
+
+Version 0.11
+script now starts out with a clear command
+script now displays GPL on start
+readme is much more descriptive and helpful
+
+Version 0.10
+Created the EZ vlc streamer basic script!
